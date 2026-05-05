@@ -1,0 +1,18 @@
+# Ignore sensitive config files
+includes/config.php
+
+# Ignore uploaded files (images/videos) - they can be large and not needed in repo
+uploads/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+*.swp
+*.swo
+
+# Ignore logs and temp files
+*.log
+tmp/
