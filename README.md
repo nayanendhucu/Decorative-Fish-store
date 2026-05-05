@@ -24,7 +24,7 @@ A live inventory PHP website for selling decorative fishes from a home/farm in K
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/fish-store.git
+   git clone https://github.com/nayanendhucu/fish-store.git
    cd fish-store
    ```
 
@@ -45,12 +45,11 @@ A live inventory PHP website for selling decorative fishes from a home/farm in K
 5. **Run the Application**:
    - Open your browser and navigate to `http://localhost/fish-store`.
 
-## Default Admin Login
-- Username: `admin`
-- Password: `admin123`
+## Default Admin Login exanple
+- Username: `adminname`
+- Password: `password`
 
-> If the admin account is not created automatically, use phpMyAdmin to insert a row into the `admin` table with a hashed password from `password_hash('admin123', PASSWORD_DEFAULT)`.
-
+> 
 ## Folder Structure
 - `/admin` — admin panel pages
 - `/includes` — common PHP config, functions, header/footer
